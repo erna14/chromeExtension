@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid rgb(24, 126, 243);
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(24, 126, 243);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 17px;
+    margin-bottom: 20px;
+}
+
+#delete-btn {
+    background-color: white;
+    border: 2px solid rgb(24, 126, 243);
+    font-weight: bold;
+    color: rgb(24, 126, 243);
+    border-radius: 15px;
+    padding: 9px 15px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: rgb(24, 126, 243);
+}
+  
+/* visited link
+a:visited {
+    color: rgb(24, 126, 243);
+}
+
+/* mouse over link */
+/* a:hover {
+    color: rgb(24, 126, 243);
+}
+
+/* selected link */
+/* a:active {
+    color: rgb(24, 126, 243);
+} */ 
+
+/* #box {
+    cursor: pointer;
+    background-color: lightseagreen;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+} */
